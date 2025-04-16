@@ -6,9 +6,13 @@ JavaScript öğrenmeye yeni başlayanlar için 25 soruluk eğlenceli bir quiz! T
 ✨ Özellikler
 
 25 Soru: Değişkenler, döngüler, fonksiyonlar ve daha fazlası.
+
 Rastgele Seçenekler: Her soruda karışık A, B, C, D seçenekleri.
+
 Puanlama: Doğru (+4), yanlış (-2) puan.
+
 Açıklamalar: Doğru cevaplarda animasyonlu bilgi kutuları.
+
 Sonuç:
 80+ puan: Konfeti yağmuru! 🎉
 78 ve altı: "Biraz daha odaklanmalıyız!" mesajı.
