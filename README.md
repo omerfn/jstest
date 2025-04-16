@@ -1,5 +1,8 @@
 JavaScript Mini Test 🎉
+
 JavaScript öğrenmeye yeni başlayanlar için 25 soruluk eğlenceli bir quiz! Temel JS konularını test et, detaylı açıklamalarla öğren ve yüksek skor için konfeti patlat! 🚀
+
+
 ✨ Özellikler
 
 25 Soru: Değişkenler, döngüler, fonksiyonlar ve daha fazlası.
