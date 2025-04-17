@@ -307,6 +307,16 @@ function checkAnswer(choice, isCorrect) {
   } else {
     score -= 2;
     resultEl.innerHTML = "<span class='lang-tr'>❌ Üzgünüm, yanlış cevap.</span><br><span class='lang-en'>❌ Sorry, wrong answer.</span>";
+    // Doğru şıkkı bul ve vurgula
+    const correctOption = questions[currentQuestionIndex].options.find(opt => opt.correct);
+    buttons.forEach(btn => {
+      if (btn.textContent === correctOption.text) {
+        btn.style.backgroundColor = "#4caf50"; // Doğru şık yeşil
+        btn.style.color = "white";
+      }
+    });
+    explanationEl.innerHTML = questions[currentQuestionIndex].explanation;
+    explanationEl.classList.add("show");
   }
 
   scoreEl.textContent = score;
