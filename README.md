@@ -13,6 +13,7 @@ JavaScript öğrenmeye yeni başlayanlar için 25 soruluk eğlenceli bir quiz! T
 - Modern, renkli arayüz ve erişilebilirlik desteği.
 - Kaçıncı soruda olduğunuzun bilgisi.
 
+
 ## 📂 Dosyalar
 - `index.html`: Test yapısı
 - `style.css`: Stil ve konfeti animasyonu
@@ -40,6 +41,7 @@ A fun 25-question quiz for those just starting to learn JavaScript! Test your kn
 - 80+ points: Confetti rain! 🎉
 - 78 and below: "We need to focus a bit more!" message.
 - Modern, colorful interface with accessibility support.
+- information on which question you are on.
 
 ## 📂 Files
 
