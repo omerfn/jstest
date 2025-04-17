@@ -11,6 +11,7 @@ JavaScript öğrenmeye yeni başlayanlar için 25 soruluk eğlenceli bir quiz! T
   - 80+ puan: Konfeti yağmuru! 🎉
   - 78 ve altı: "Biraz daha odaklanmalıyız!" mesajı.
 - Modern, renkli arayüz ve erişilebilirlik desteği.
+- Kaçıncı soruda olduğunuzun bilgisi.
 
 ## 📂 Dosyalar
 - `index.html`: Test yapısı
