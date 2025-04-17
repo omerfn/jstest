@@ -260,6 +260,7 @@ const resultEl = document.getElementById("result");
 const explanationEl = document.getElementById("explanation");
 const scoreEl = document.getElementById("score");
 const nextBtn = document.getElementById("next-btn");
+const questionCounterEl = document.getElementById("question-counter");
 
 // Fisher-Yates shuffle algoritması
 function shuffle(array) {
@@ -279,6 +280,9 @@ function loadQuestion() {
   resultEl.classList.remove("show");
   explanationEl.classList.remove("show");
   nextBtn.style.display = "none";
+
+  // Soru sayısını güncelle
+  questionCounterEl.innerHTML = `<span class='lang-tr'>Soru ${currentQuestionIndex + 1}/${questions.length}</span><br><span class='lang-en'>Question ${currentQuestionIndex + 1}/${questions.length}</span>`;
 
   // Seçenekleri karıştır
   const shuffledOptions = shuffle([...currentQuestion.options]);
